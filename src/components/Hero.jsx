@@ -35,8 +35,9 @@ const Hero = () => {
           />
         </div>
       </div>
-
-      <ComputersCanvas />
+      <div className="hidden md:inline">
+        <ComputersCanvas />
+      </div>
     </section>
   );
 };

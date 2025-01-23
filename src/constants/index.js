@@ -203,7 +203,7 @@ const testimonials = [
   {
     testimonial:
       "Collaborating with Mostapha Yasser on my graduate project was incredible. His professionalism, dedication, and skills ensured a seamless process, producing results that exceeded expectations.",
-    name: "Heba Salah",
+    name: "Dr.Heba M Abd El Atty",
     designation: "Professor of communications",
     company: "Faculty of Engineering, portsaid university",
     image: heba,
