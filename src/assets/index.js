@@ -25,10 +25,8 @@ import threejs from "./tech/threejs.svg";
 
 import meta from "./company/meta.png";
 import itiGraduates from "./itiGraduates.png";
-import carrent from "./carrent.png";
 import knowly from "./knowly.png";
 import chatApp from "./chat-app.jpg";
-import jobit from "./jobit.png";
 import iti from "./iti.png";
 import upwork from "./upwork.svg";
 import sha from "./sha.png";
@@ -66,8 +64,6 @@ export {
   typescript,
   threejs,
   meta,
-  carrent,
-  jobit,
   iti,
   sameh,
   fatma,
