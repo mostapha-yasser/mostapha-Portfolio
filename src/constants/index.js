@@ -196,8 +196,8 @@ const testimonials = [
     testimonial:
       "I've never encountered a developer as dedicated to client success as Mostapha Yasser. His attention to detail and commitment to quality are simply exceptional.",
     name: "Fatma Youns",
-    designation: "full stack",
-    company: "iknoly",
+    designation: "Front-end",
+    company: "One-solution",
     image: fatma,
   },
   {

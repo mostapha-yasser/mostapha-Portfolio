@@ -4,6 +4,7 @@ import { EarthCanvas } from "./canvas";
 import { SectionWrapper } from "../hoc";
 import { slideIn } from "../utils/motion";
 import { styles } from "../styles";
+import { useDeviceContext } from "../context/DeviceContext";
 
 const ContactInfo = [
   { 
@@ -32,7 +33,6 @@ const ContactInfo = [
     link: "https://www.linkedin.com/in/mostapha-yasser" 
   }
 ];
-
 const ContactLink = ({ type, value, link }) => (
   <div className="flex items-center mb-3 bg-secondary/5 p-3 rounded-lg transition-all hover:bg-secondary/10">
     <strong className="mr-2 text-white min-w-[80px]">{type}:</strong>
@@ -48,6 +48,7 @@ const ContactLink = ({ type, value, link }) => (
 );
 
 const Contact = () => {
+  const { isMobile } = useDeviceContext(); 
   return (
     <div className={`xl:mt-12 flex xl:flex-row flex-col-reverse gap-10 overflow-hidden`}>
       <motion.div
@@ -72,7 +73,7 @@ const Contact = () => {
         variants={slideIn("right", "tween", 0.2, 1)}
         className='xl:flex-1 xl:h-auto md:h-[550px] h-[350px]'
       >
-        <EarthCanvas />
+        {!isMobile && <EarthCanvas /> }
       </motion.div>
     </div>
   );

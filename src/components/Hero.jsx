@@ -1,7 +1,11 @@
 import { styles } from "../styles";
 import { ComputersCanvas } from "./canvas";
 import { personalImg } from "../assets/index";
+import { useDeviceContext } from "../context/DeviceContext";
+
 const Hero = () => {
+  const { isMobile } = useDeviceContext(); 
+
   return (
     <section className="relative w-full h-screen mx-auto">
       <div
@@ -27,17 +31,20 @@ const Hero = () => {
             High-Quality
           </p>
         </div>
-        <div className="relative rounded-full overflow-hidden shadow-lg border-4 border-primary">
+        <div className="relative rounded-full overflow-hidden shadow-2xl border-4 border-primary h-96 w-80 md:max-h-80 ">
           <img
             src={personalImg}
             alt="Personal"
-            className="w-full h-full object-cover"
+            className="w-full h-full "
           />
         </div>
       </div>
-      <div className="hidden md:inline">
+      {
+        !isMobile &&    <div className="hidden md:inline">
         <ComputersCanvas />
       </div>
+      }
+  
     </section>
   );
 };
