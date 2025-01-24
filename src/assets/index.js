@@ -24,23 +24,19 @@ import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
 
 import meta from "./company/meta.png";
-import shopify from "./company/shopify.png";
-import starbucks from "./company/starbucks.png";
-import tesla from "./company/tesla.png";
-import itiGraduates from "./itiGraduates.png"
-import carrent from "./carrent.png"
-import knowly from "./knowly.png"
+import itiGraduates from "./itiGraduates.png";
+import carrent from "./carrent.png";
+import knowly from "./knowly.png";
 import chatApp from "./chat-app.jpg";
 import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
-import iti from "./iti.png" 
-import upwork from "./upwork.svg"
-import sha from "./sha.png"
-import heba from "./heba.jpeg"
-import sameh from "./sameh.jpg"
-import fatma from "./fatma.jpeg"
-import amany from "./amany.jpg"
-import personalImg from "./mostapha-yasser-photo-Photoroom.png"
+import iti from "./iti.png";
+import upwork from "./upwork.svg";
+import sha from "./sha.png";
+import heba from "./heba.jpeg";
+import sameh from "./sameh.jpg";
+import fatma from "./fatma.jpeg";
+import amany from "./amany.jpg";
+import personalImg from "./mostapha-yasser-photo-Photoroom.png";
 export {
   knowly,
   chatApp,
@@ -70,12 +66,8 @@ export {
   typescript,
   threejs,
   meta,
-  shopify,
-  starbucks,
-  tesla,
   carrent,
   jobit,
-  tripguide,
   iti,
   sameh,
   fatma,
