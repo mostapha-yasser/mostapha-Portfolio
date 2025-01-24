@@ -22,9 +22,9 @@ const ProjectCard = ({
           scale: 1,
           speed: 450,
         }}
-        className='bg-black-100 p-5 rounded-2xl sm:w-[360px] w-full'
+        className='bg-black-100 p-5 rounded-2xl sm:w-[360px] w-full overflow-hidden'
       >
-        <div className='relative w-full h-[230px]'>
+        <div className='relative w-full h-[230px] overflow-hidden'>
           <img
             src={image}
             alt='project_image'
