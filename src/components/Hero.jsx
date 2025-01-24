@@ -26,7 +26,7 @@ const Hero = () => {
             Hi, I'm <span className="text-primary">Mostapha</span>
           </h1>
           <p className={`${styles.heroSubText} mt-2 text-white-100`}>
-            I am Front End Developer <br className="block md:hidden " />
+         Front End Developer <br className="block md:hidden " />
             with Strong Problem-Solving Abilities & ACommitment To Delivering
             High-Quality
           </p>
