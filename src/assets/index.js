@@ -34,7 +34,7 @@ import heba from "./heba.jpeg";
 import sameh from "./sameh.jpg";
 import fatma from "./fatma.jpeg";
 import amany from "./amany.jpg";
-import personalImg from "./mostapha-yasser-photo-Photoroom.png";
+import personalImg from "./mostapha-yasser-photo-Photoroom.png.jpg";
 export {
   knowly,
   chatApp,
